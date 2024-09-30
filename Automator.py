@@ -6,19 +6,19 @@ from tqdm import tqdm
 
 #Set up Reddit API - PRAW
 reddit = praw.Reddit(
-    client_id="_9TZJK8yshpXqW-uqsIN0Q", #done
-    client_secret="kRKmkJROg-Z07g-FiA-d-3ZjpOJnhg",  #done
-    password="H@da841515",  #done
-    user_agent="content generator by u/Funny_Key3692", #done
-    username="Funny_Key3692", #done
+    client_id="your_client_id",
+    client_secret="your_client_secret",
+    user_agent="your_user_agent"
+    password="your_password",
+    username="Funny_Key3692",
 )
 
 #Set up AWS client
 polly = boto3.client(
     'polly',
-    aws_access_key_id='AKIAUJ3VUKUR4GHEP26I',
-    aws_secret_access_key='bfn7xxK98sx/BVptGQvDjJxyqWhB3468gd4NXb2d',
-    region_name='us-east-1' 
+    aws_access_key_id='your_access_key',
+    aws_secret_access_key='your_secret_key',
+    region_name='your_region'
 )
 
 #pulling daily top posts from the cscareerquestions subreddit
