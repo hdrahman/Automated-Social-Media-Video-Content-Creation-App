@@ -10,7 +10,7 @@ reddit = praw.Reddit(
     client_secret="your_client_secret",
     user_agent="your_user_agent"
     password="your_password",
-    username="Funny_Key3692",
+    username="your_username",
 )
 
 #Set up AWS client
